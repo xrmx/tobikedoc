@@ -73,5 +73,5 @@ Gli stati diverso da 0 indicano che la stazione non è utilizzabile.
 ## Note
 
 Questo sistema recupera solo i dati della città di Torino. Per recuperare i dati di
-tutti i comuni dove funziona il servizio [T=]Bike serve un sistema di scraping più
+tutti i comuni dove funziona il servizio [TO]Bike serve un sistema di scraping più
 evoluto.
