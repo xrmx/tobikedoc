@@ -29,7 +29,7 @@ wget http://www.tobike.it/frmLeStazioni.aspx
 
 Fortunatamente tutti i dati delle stazioni sono passati come parametri della funzione RefreshMap:
 ```
-grep -o "{RefreshMap(.*}" frmLeStazioni.aspx
+grep -o "{RefreshMap(.*}" frmLeStazioni.aspx | sed 's/{RefreshMap(\(.*\))}/\1/'
 ```
 
 ## Descrizione dei dati
