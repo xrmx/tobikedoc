@@ -46,9 +46,9 @@ seguente ordine:
 - stato biciclette nelle stazioni
 - indicazione geografica delle stazioni (con markup html)
 - indicazione dello stato della stazione
-- il numero 14
-- latitudine del Lidl di via Carlo Alberto in Torino
-- longitudine del Lidl di via Carlo Alberto in Torino
+- il livello di zoom della mappa
+- latitudine del Lidl di via Carlo Alberto in Torino (per centrare la mappa)
+- longitudine del Lidl di via Carlo Alberto in Torino (per centrare la mappa)
 
 Lo stato biciclette delle stazioni è un campo a larghezza fissa di 30 caratteri dove:
 - il carattere 0 indica un posto bici vuoto
