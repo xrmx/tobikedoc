@@ -32,11 +32,14 @@ Fortunatamente tutti i dati delle stazioni sono passati come parametri della fun
 grep -o "{RefreshMap(.*}" frmLeStazioni.aspx | sed 's/{RefreshMap(\(.*\))}/\1/'
 ```
 
+Al termine di questi comandi l'output sarà un file csv di una riga che usa *,* come
+separatore dei campi e *'* per fare il quoting delle stringhe.
+
 ## Descrizione dei dati
 
-I dati delle singole stazioni sono contenuti in stringhe separati dal carattere
-*|*. Ogni stringa contiene lo stesso tipo di dato per tutte le stazioni nel
-seguente ordine:
+Lo stesso dato per tutte le stazioni è raggruppato in un singolo campo. All'interno
+dello stesso campo i dati delle singole stazioni sono separati dal carattere *|*.
+I campi sono nel seguente ordine:
 - id delle stazioni
 - numero voti per le stazioni
 - media voto per le stazioni
