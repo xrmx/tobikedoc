@@ -27,7 +27,7 @@ Scarichiamo la pagina che contiene le stazioni nel sito per il comune di Torino:
 wget http://www.tobike.it/frmLeStazioni.aspx
 ```
 
-Fortunatamente le stazioni sono contenute in un oggetto js chiamato RefreshMap:
+Fortunatamente tutti i dati delle stazioni sono passati come parametri della funzione RefreshMap:
 ```
 grep -o "{RefreshMap(.*}" frmLeStazioni.aspx
 ```
