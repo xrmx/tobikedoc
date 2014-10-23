@@ -79,3 +79,5 @@ Gli stati diverso da 0 indicano che la stazione non è utilizzabile.
 Questo sistema recupera solo i dati della città di Torino. Per recuperare i dati di
 tutti i comuni dove funziona il servizio [TO]Bike serve un sistema di scraping più
 evoluto.
+
+Una implementazione di riferimento in python rilasciata sotto licenza **GPL** è disponibile come *tobike.py*.
