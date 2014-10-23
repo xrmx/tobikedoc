@@ -80,6 +80,6 @@ Questo sistema recupera solo i dati della città di Torino. Per recuperare i dat
 tutti i comuni dove funziona il servizio [TO]Bike serve un sistema di scraping più
 evoluto.
 
-Una implementazione di riferimento in python rilasciata sotto licenza **GPL** è disponibile come *tobike.py*.
-
 Il progetto [Citybikes](http://citybik.es) offre una [API](http://api.citybik.es/v2/) e il [sorgente](https://github.com/eskerda/PyBike) degli scrapers. Comprende i dati di tutti gli altri comuni del circuito [TO]Bike.
+
+Una implementazione di riferimento in python rilasciata sotto licenza **GPL** è disponibile come *tobike.py*.
