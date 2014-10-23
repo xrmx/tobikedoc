@@ -55,6 +55,7 @@ I campi sono nel seguente ordine:
 
 Lo stato biciclette delle stazioni è un campo a larghezza fissa di 30 caratteri dove:
 - il carattere 0 indica un posto bici vuoto
+- il carattere 1 indica una bicicletta non attiva
 - il carattere 4 indica una bicicletta disponibile
 - il carattere 5 indica una bicicletta non attiva
 - le x sono segnaposto
